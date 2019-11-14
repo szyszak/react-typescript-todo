@@ -11,18 +11,9 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  html,
-  body,
-  #root {
-    height: 100%;
-  }
-
-  #root {
+  body {
     display: flex;
     justify-content: center;
-  }
-
-  body {
     padding-top: 60px;
     font-family: 'Open Sans';
     background-image: url(${process.env.PUBLIC_URL}/bg.jpg);

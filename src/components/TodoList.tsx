@@ -6,8 +6,12 @@ import TodoItem from './TodoItem';
 
 // STYLES
 const StyledTodoList = styled.ul`
-  margin-top: 16px;
   list-style: none;
+`;
+
+const Paragraph = styled.p`
+  margin-top: 6px;
+  font-size: 22px;
 `;
 
 // COMPONENT
@@ -18,7 +22,11 @@ const TodoList: React.FC = () => {
     return <TodoItem key={idx} id={item.id} text={item.text} complete={item.complete} />;
   });
 
-  return <StyledTodoList>{renderedItems}</StyledTodoList>;
+  if (state.length === 0) {
+    return <Paragraph>No todos found.</Paragraph>;
+  } else {
+    return <StyledTodoList>{renderedItems}</StyledTodoList>;
+  }
 };
 
 export default TodoList;
