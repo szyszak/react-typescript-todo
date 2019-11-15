@@ -21,7 +21,7 @@ const TextInput = styled.input.attrs({ type: 'text' })`
 const Button = styled.button`
   height: 28px;
   padding: 0 10px;
-  background-color: #53dcff;
+  background-color: #ffdbad;
   border: none;
   cursor: pointer;
 `;

@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
+import Checkbox from './Checkbox';
 import { StoreContext } from '../store/Store';
 import { IContext, ITodoItem } from '../types/types';
 
@@ -14,12 +15,6 @@ const StyledTodoItem = styled.li`
   &:last-child {
     border-bottom: none;
   }
-`;
-
-const Checkbox = styled.input.attrs({ type: 'checkbox' })`
-  margin-right: 10px;
-  transform: scale(2);
-  cursor: pointer;
 `;
 
 const Button = styled.button`
@@ -44,10 +39,9 @@ const TodoItem: React.FC<ITodoItem> = ({ text, id, complete }) => {
   return (
     <StyledTodoItem>
       <Text complete={complete}>{text}</Text>
-      <Checkbox
-        checked={complete}
-        onChange={() => dispatch({ type: 'TOGGLE_DONE', payload: id })}
-      />
+
+      <Checkbox complete={complete} id={id} />
+
       <Button onClick={() => dispatch({ type: 'REMOVE_TODO', payload: id })}>X</Button>
     </StyledTodoItem>
   );
