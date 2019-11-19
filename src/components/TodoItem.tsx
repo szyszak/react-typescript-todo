@@ -20,8 +20,8 @@ const StyledTodoItem = styled.li`
 const Button = styled.button`
   width: 24px;
   height: 24px;
-  border: 1px solid #000000;
-  font-weight: bold;
+  background-color: #ffdbad;
+  border: 2px solid #000000;
   cursor: pointer;
 `;
 
@@ -42,7 +42,7 @@ const TodoItem: React.FC<ITodoItem> = ({ text, id, complete }) => {
 
       <Checkbox complete={complete} id={id} />
 
-      <Button onClick={() => dispatch({ type: 'REMOVE_TODO', payload: id })}>X</Button>
+      <Button onClick={() => dispatch({ type: 'REMOVE_TODO', payload: id })}>&#x274C;</Button>
     </StyledTodoItem>
   );
 };

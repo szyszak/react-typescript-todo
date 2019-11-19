@@ -10,20 +10,18 @@ const Wrapper = styled.div`
 
 const Label = styled.label`
   display: block;
-  flex-shrink: 0;
-  margin-right: 20px;
-  width: 20px;
-  height: 20px;
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
   border: solid 2px #000000;
-  border-radius: 3px;
   cursor: pointer;
 
   &::after {
     content: '';
     position: absolute;
     display: none;
-    left: 6px;
-    top: 2px;
+    left: 8px;
+    top: 4px;
     width: 5px;
     height: 10px;
     border: solid #000000;
@@ -40,7 +38,7 @@ const StyledCheckbox = styled.input.attrs({ type: 'checkbox' })`
   top: 0;
   left: 0;
   overflow: hidden;
-  clip-path: rect(1px, 1px, 1px, 1px);
+  clip: rect(1px, 1px, 1px, 1px);
 
   &:checked + label {
     background-color: none;

@@ -55,7 +55,7 @@ const Form: React.FC = () => {
     <form onSubmit={handleSubmit}>
       <Wrapper>
         <Label htmlFor="newTask">New task:</Label>
-        <TextInput id="newTask" value={inputValue} onChange={handleChange} />
+        <TextInput id="newTask" value={inputValue} onChange={handleChange} required />
         <Button type="submit">ADD</Button>
       </Wrapper>
       <Button type="button" onClick={() => dispatch({ type: 'CLEAR_TODOS' })}>
