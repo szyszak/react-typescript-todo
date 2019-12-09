@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.ff901b57.chunk.js",
-    "main.js.map": "/static/js/main.ff901b57.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3e186f40.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3e186f40.js.map",
-    "static/js/2.377755f3.chunk.js": "/static/js/2.377755f3.chunk.js",
-    "static/js/2.377755f3.chunk.js.map": "/static/js/2.377755f3.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.93d486638d3dcf58ea049bb40c6ad4a5.js": "/precache-manifest.93d486638d3dcf58ea049bb40c6ad4a5.js",
-    "service-worker.js": "/service-worker.js"
+    "main.js": "/react-typescript-todo/static/js/main.0a356468.chunk.js",
+    "main.js.map": "/react-typescript-todo/static/js/main.0a356468.chunk.js.map",
+    "runtime-main.js": "/react-typescript-todo/static/js/runtime-main.37c8653a.js",
+    "runtime-main.js.map": "/react-typescript-todo/static/js/runtime-main.37c8653a.js.map",
+    "static/js/2.7157b707.chunk.js": "/react-typescript-todo/static/js/2.7157b707.chunk.js",
+    "static/js/2.7157b707.chunk.js.map": "/react-typescript-todo/static/js/2.7157b707.chunk.js.map",
+    "index.html": "/react-typescript-todo/index.html",
+    "precache-manifest.6870de755beccf77dc65a4f54f0e54f1.js": "/react-typescript-todo/precache-manifest.6870de755beccf77dc65a4f54f0e54f1.js",
+    "service-worker.js": "/react-typescript-todo/service-worker.js"
   }
 }
