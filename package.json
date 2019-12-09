@@ -12,11 +12,13 @@
     "styled-components": "^4.4.0",
     "typescript": "3.6.3"
   },
+  "homepage": "https://szyszak.github.io/react-typescript-todo/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,6 +38,7 @@
   "devDependencies": {
     "@types/react": "^16.9.4",
     "@types/styled-components": "^4.1.19",
-    "eslint-plugin-react-hooks": "^2.1.1"
+    "eslint-plugin-react-hooks": "^2.1.1",
+    "gh-pages": "^2.1.1"
   }
 }
